@@ -93,8 +93,10 @@
   </table>
 
   <header>
-    <h1 class="logo">Welcome to Beego</h1>
+    <h1 class="logo">Page demo Golang</h1>
     <div class="description">
+    <a href="http://localhost:8080/vast?i=2&vp=1&w=1000&h=2000&cb=[CACHEBUSTER]&p=[PAGE_URL]&?longurl=http://google.com">Analytic</a>
+    {{ .IP }}
       Beego is a simple & powerful Go web framework which is inspired by tornado and sinatra.
     </div>
   </header>

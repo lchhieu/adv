@@ -2,17 +2,14 @@ package main
 
 import (
 	_ "bee-project/routers"
-	"fmt"
-	//"github.com/astaxie/beego"
-	"github.com/astaxie/beego/orm"
-	_ "github.com/go-sql-driver/mysql"
+	"github.com/astaxie/beego"
 )
 
 func init() {
 }
 
 func main() {
-	fmt.Println("Start..")
+	/*fmt.Println("Start..")
 	o := orm.NewOrm()
 	o.Using("default") // Using default, you can use other database
 
@@ -32,7 +29,7 @@ func main() {
 		user.Profile = profile
 		id, err = o.Insert(user)
 		fmt.Printf("ID: %v, ERR: %s, %v\n", id, err, user)
-	}
+	}*/
 
 	/*var maps []orm.Params
 	num, err := o.QueryTable("users").Values(&maps)
@@ -59,5 +56,5 @@ func main() {
 	}
 	*/
 	/**/
-	//beego.Run()
+	beego.Run()
 }
